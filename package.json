@@ -31,5 +31,8 @@
     "printWidth": 100,
     "semi": false,
     "singleQuote": true
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.0"
   }
 }
