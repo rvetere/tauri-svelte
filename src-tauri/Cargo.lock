@@ -2454,7 +2454,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tauri-svelte-template"
+name = "tauri-svelte"
 version = "0.1.0"
 dependencies = [
  "serde",
