@@ -34,3 +34,12 @@
 3. Run `cargo check` to update `Cargo.lock`
 4. Create a git tag in the format `v#.#.#`
 5. Add release notes to the generated GitHub release and publish it
+
+### Release new version with changeset
+
+1. Run `npx changeset` to add a changeset
+2. Run `npx changeset version` to bump version (and change CHANGELOG.md)
+3. Set the same version to `src-tauri/Cargo.toml`
+4. Run `cargo check` in `src-tauri` to update Cargo.lock
+5. Run `npx changeset publish` to add github tag
+6. Push everything in a new PR - when merging this PR, release pipeline will be triggered (by the tag)
