@@ -1,4 +1,4 @@
-# Tauri Svelte Template
+# Tauri Svelte
 
 - **Tauri**
 - **GitHub action** for cross-platform builds
@@ -21,12 +21,14 @@
 5. Find and replace the text `tauri-svelte-template` and `Tauri Svelte Template`.
 
 ### Commands
+
 - `npm run dev`: Start app in dev mode
 - `npm run build`: Build
 - `npm run lint`: Lint
 - `npm run format`: Format
 
 ### Release new version
+
 1. Update `CHANGELOG.md`
 2. Bump the version number in `src-tauri/Cargo.toml`
 3. Run `cargo check` to update `Cargo.lock`
